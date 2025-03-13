@@ -1,8 +1,12 @@
+/config.yaml
+/content
+/static/images
 .vscode
 
 ### Hugo ###
 # Generated files by hugo
 /public/
+/exampleSite/public/
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
