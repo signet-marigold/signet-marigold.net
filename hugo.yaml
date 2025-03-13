@@ -153,7 +153,13 @@ params:
           url: https://github.com/signet-marigold
         - icon: fab fa-bluesky
           url: https://bsky.app/profile/bigfire.bsky.social
+        - icon: fab fa-mastodon
+          url: https://mastodon.social/@alis_sy
       customIcons:
+        - icon: /images/icons/Lemmy.svg
+          url: "https://casavaga.com/u/alaliliiso"
+        - icon: /images/icons/Pixelfed.svg
+          url: "https://pixelfed.social/tenebriscaelum"
         - icon: /fav.png
           url: "https://signet-marigold.net"
 

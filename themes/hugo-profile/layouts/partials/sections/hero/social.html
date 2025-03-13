@@ -16,7 +16,12 @@
             {{ if not (hasPrefix .url "#") }} target="_blank" {{ end }}
             class="btn social-icon"
         >
-            <img src="{{ .icon }}">
+            {{ if eq (path.Ext .icon) ".svg" }}
+                {{ $path := .icon | printf "%s%s" "static" }}
+                {{ readFile $path | safeHTML }}
+            {{ else }}
+                <img src="{{ .icon }}">
+            {{ end }}
         </a>
     </span>
     {{ end }}
