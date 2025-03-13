@@ -144,18 +144,18 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/upload/resume/alexh-Resume-26-Nov-cad-se.pdf"
       download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
+          url: https://github.com/signet-marigold
+        - icon: fab fa-bluesky
+          url: https://bsky.app/profile/bigfire.bsky.social
       customIcons:
         - icon: /fav.png
-          url: "https://example.com"
+          url: "https://signet-marigold.net"
 
   # About
   about:
