@@ -353,6 +353,8 @@ params:
       linkedin: https://www.linkedin.com/in/alexander-hack/
       bluesky: https://bsky.app/profile/bigfire.bsky.social
       mastodon: https://mastodon.social/@alis_sy
+      pixelfed: https://pixelfed.social/tenebriscaelum
+      lemmy: https://casavaga.com/u/alaliliiso
 
   # List pages like blogs and posts
   listPages:
