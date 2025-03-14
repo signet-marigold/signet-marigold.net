@@ -151,6 +151,8 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/signet-marigold
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/alexander-hack/
         - icon: fab fa-bluesky
           url: https://bsky.app/profile/bigfire.bsky.social
         - icon: fab fa-mastodon
@@ -252,49 +254,6 @@ params:
         date: "Feb 2016 - Mar 2017"
         content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
-  # Education
-  education:
-    enable: true
-    # title: "Custom Name"
-    index: false
-    items:
-      - title: "Master of Business Administration"
-        school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-
   # Achievements
   achievements:
     enable: true
@@ -322,23 +281,24 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
+      - title: Pluvio
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
         image: /images/projects/profile.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Download
+          link: https://github.com/signet-marigold/Pluvio/releases
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Tauri"
+          - "Node"
+          - "Typescript"
+          - "Rust"
         links:
           - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+            url: mailto:?subject%3DPluvio%2C%20a%20Desktop%20Noise%20Machine%26body%3DCheck%20it%20out%3A%20https%3A%2F%2Fgithub.com%2Fsignet-marigold%2FPluvio
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/signet-marigold/Pluvio
+          - icon: fab fa-x-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fsignet-marigold%2FPluvio
 
       - title: Image Converter
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
@@ -389,11 +349,10 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/signet-marigold
+      linkedin: https://www.linkedin.com/in/alexander-hack/
+      bluesky: https://bsky.app/profile/bigfire.bsky.social
+      mastodon: https://mastodon.social/@alis_sy
 
   # List pages like blogs and posts
   listPages:
