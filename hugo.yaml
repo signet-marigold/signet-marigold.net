@@ -167,7 +167,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/alex-hack-headshot_ai-generated.jpg"
+    image: "/images/alex-hack-headshot_3.jpg"
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
 
@@ -178,10 +178,14 @@ params:
       items:
         - "HTML"
         - "CSS"
-        - "JavaScript"
-        - "React"
+        - "Rust"
+        - "Tauri"
         - "Node"
-        - "Express"
+        - "JavaScript"
+        - "Svelte"
+        - "Ansible"
+        - "Nix"
+        - "Hugo"
 
   # Experience
   experience:
